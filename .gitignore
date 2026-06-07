@@ -1,0 +1,5 @@
+# Ignore all compiled C++ executable files
+*.exe
+# If you ever create standard input/output text files for competitive programming
+# you can track them, but ignore heavy log files if any pop up
+*.log
