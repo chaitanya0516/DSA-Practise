@@ -21,7 +21,7 @@ vector<vector<int>> zeroMatrix(vector<vector<int>> &matrix, int n , int m){
 }
 
 for(int i = 1; i<n;i++){
-    for(int j = 1; j<n;j++){
+    for(int j = 1; j<m;j++){
         if(matrix[i][j]!=0){
             //check for col & row
             if(matrix[0][j] == 0 || matrix[i][0] == 0){
