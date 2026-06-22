@@ -12,7 +12,7 @@ int searchVector(vector<int>& arr ,int x){
             high = mid - 1;
         }
         else{
-    low = mid + 1; // look fo r right 
+    low = mid + 1; // look for right 
         }
     }
     return ans;
