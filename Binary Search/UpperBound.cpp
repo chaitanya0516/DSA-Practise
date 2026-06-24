@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-int lowerBound(vector<int> arr,int n,int x){
+int upperBound(vector<int> arr,int n,int x){
     int low = 0, high = n-1;
     int ans = n;
     while(low<=high){
@@ -12,5 +12,6 @@ int lowerBound(vector<int> arr,int n,int x){
     else{
         low = mid+1;
     }
+}
     return ans;
 }
