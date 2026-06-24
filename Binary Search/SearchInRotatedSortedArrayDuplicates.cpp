@@ -6,7 +6,7 @@ int search(vector<int>& arr, int n , int k){
         int mid = (low+high)/2;
         if(arr[mid]==k){
             return mid;
-        if(arr[low]==arr[mid]==arr[high]){
+        if(arr[low]==arr[mid] &&  arr[mid]==arr[high]){
             low = low + 1;
             high = high - 1;
             continue;
