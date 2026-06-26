@@ -14,6 +14,7 @@ int findMin(vector<int>&arr){
         }
         if(arr[low]<= arr[mid]){
             ans = min(ans,arr[low]);
+            low = mid + 1;
         }
         else{
             high = mid -1;
